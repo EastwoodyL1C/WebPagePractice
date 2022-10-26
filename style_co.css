@@ -150,12 +150,12 @@ body {
     font-size: 32px;
 }
 
-.input {
+input {
     display: none;
 }
 
 @media (max-width:990px) {
-    .header__btn {
+    .header__download {
         display:none;
     }
     .main {
@@ -193,7 +193,7 @@ body {
     .header__nav ul {
         flex-direction: column;
     }
-    input:checked~.header__nav {
+    input:checked .header__nav {
         transform: translateX(0);
     }
 }
