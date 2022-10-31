@@ -179,6 +179,9 @@ label {
     body {
         padding: 20px;
     }
+    label {
+        display: block;
+    }
     .header .material-symbols-outlined {
         display: block;
     }
@@ -197,7 +200,7 @@ label {
     .header__nav ul {
         flex-direction: column;
     }
-    input:checked .header__nav {
+    input:checked~.header__nav {
         transform: translateX(0);
     }
 }
